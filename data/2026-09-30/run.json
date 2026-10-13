@@ -1,0 +1,22 @@
+{
+  "tool": "readme-breakouts",
+  "version": "0.1.0",
+  "run_date": "2026-09-30",
+  "definition": "public non-fork repos created in the 365 days up to the run date with at least 1000 stars on the run date",
+  "population": 3806,
+  "sample_size": 100,
+  "seed": 20260930,
+  "quotas": {
+    "agent-or-skill": 28,
+    "mcp-server": 10,
+    "awesome-list": 7,
+    "ai-model-or-research": 12,
+    "other": 15,
+    "app": 9,
+    "cli-tool": 6,
+    "library-or-framework": 7,
+    "learning": 6
+  },
+  "search_api_calls": 54,
+  "transport": "gh"
+}

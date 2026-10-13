@@ -1,0 +1,1167 @@
+{
+  "tool": "readme-breakouts",
+  "version": "0.1.0",
+  "run_date": "2026-09-30",
+  "definition": "public non-fork repos created in the 365 days up to the run date with at least 1000 stars on the run date",
+  "population": {
+    "n": 3806,
+    "by_kind": {
+      "agent-or-skill": 1566,
+      "other": 675,
+      "ai-model-or-research": 488,
+      "mcp-server": 331,
+      "app": 292,
+      "library-or-framework": 168,
+      "awesome-list": 154,
+      "cli-tool": 100,
+      "learning": 32
+    }
+  },
+  "n": 100,
+  "seed": 20260930,
+  "quotas": {
+    "agent-or-skill": 28,
+    "mcp-server": 10,
+    "awesome-list": 7,
+    "ai-model-or-research": 12,
+    "other": 15,
+    "app": 9,
+    "cli-tool": 6,
+    "library-or-framework": 7,
+    "learning": 6
+  },
+  "features": {
+    "pitch_in_first_15": {
+      "label": "One-line pitch in the first 15 lines",
+      "k": 82,
+      "n": 100,
+      "share": 0.82,
+      "ci": [
+        0.7333246397578691,
+        0.8829986834574896
+      ],
+      "weighted_share": 0.7986716879780463,
+      "weighted_ci": [
+        0.6984611086896065,
+        0.8716968039805576
+      ]
+    },
+    "pitch_in_first_40": {
+      "label": "One-line pitch in the first 40 lines",
+      "k": 99,
+      "n": 100,
+      "share": 0.99,
+      "ci": [
+        0.9455124752390653,
+        0.9982326134344526
+      ],
+      "weighted_share": 0.9853051572704752,
+      "weighted_ci": [
+        0.9215088468154891,
+        0.9973954388997472
+      ]
+    },
+    "image_in_first_40": {
+      "label": "Image (not a badge) in the first 40 lines",
+      "k": 77,
+      "n": 100,
+      "share": 0.77,
+      "ci": [
+        0.6784543514317231,
+        0.841568452531236
+      ],
+      "weighted_share": 0.7650247312097024,
+      "weighted_ci": [
+        0.6673694792803843,
+        0.8408470753657661
+      ]
+    },
+    "image_in_first_4000": {
+      "label": "Image (not a badge) in the first 4,000 characters",
+      "k": 77,
+      "n": 100,
+      "share": 0.77,
+      "ci": [
+        0.6784543514317231,
+        0.841568452531236
+      ],
+      "weighted_share": 0.7678961372602991,
+      "weighted_ci": [
+        0.6735895363509196,
+        0.8413722346040441
+      ]
+    },
+    "screenshot_in_first_40": {
+      "label": "Image that is not a logo or icon in the first 40 lines",
+      "k": 68,
+      "n": 100,
+      "share": 0.68,
+      "ci": [
+        0.5833719774632081,
+        0.7633098918454312
+      ],
+      "weighted_share": 0.6880260073901693,
+      "weighted_ci": [
+        0.5873316780842333,
+        0.7736204036834975
+      ]
+    },
+    "has_gif": {
+      "label": "A GIF anywhere",
+      "k": 16,
+      "n": 100,
+      "share": 0.16,
+      "ci": [
+        0.10095202349473717,
+        0.24420444558894414
+      ],
+      "weighted_share": 0.15792024289134116,
+      "weighted_ci": [
+        0.09634776061704807,
+        0.24804080421134056
+      ]
+    },
+    "has_video": {
+      "label": "A video or video link anywhere",
+      "k": 8,
+      "n": 100,
+      "share": 0.08,
+      "ci": [
+        0.04109296948581091,
+        0.14998266879403072
+      ],
+      "weighted_share": 0.09123689412706754,
+      "weighted_ci": [
+        0.045887147594840486,
+        0.17326624542129698
+      ]
+    },
+    "has_badges": {
+      "label": "Badges",
+      "k": 65,
+      "n": 100,
+      "share": 0.65,
+      "ci": [
+        0.5525426042919797,
+        0.7363589534652197
+      ],
+      "weighted_share": 0.6600130120361334,
+      "weighted_ci": [
+        0.5541514552714238,
+        0.7519884564821285
+      ]
+    },
+    "badges_in_first_15": {
+      "label": "Badges in the first 15 lines",
+      "k": 45,
+      "n": 100,
+      "share": 0.45,
+      "ci": [
+        0.3561437510640346,
+        0.5475557296835656
+      ],
+      "weighted_share": 0.4650172242657792,
+      "weighted_ci": [
+        0.3634447033642724,
+        0.569576603679613
+      ]
+    },
+    "install_oneliner": {
+      "label": "An install or run command anywhere",
+      "k": 63,
+      "n": 100,
+      "share": 0.63,
+      "ci": [
+        0.5322034757513312,
+        0.7181778743049083
+      ],
+      "weighted_share": 0.6245906630299694,
+      "weighted_ci": [
+        0.5220075808548623,
+        0.7170898443390381
+      ]
+    },
+    "install_in_first_40": {
+      "label": "Install or run command in the first 40 lines",
+      "k": 12,
+      "n": 100,
+      "share": 0.12,
+      "ci": [
+        0.06999337365267776,
+        0.19812268002908368
+      ],
+      "weighted_share": 0.1279145709781548,
+      "weighted_ci": [
+        0.07224765782345603,
+        0.21646538224448053
+      ]
+    },
+    "install_in_first_4000": {
+      "label": "Install or run command in the first 4,000 characters",
+      "k": 29,
+      "n": 100,
+      "share": 0.29,
+      "ci": [
+        0.21014706973984146,
+        0.38539074940007934
+      ],
+      "weighted_share": 0.28366489002327155,
+      "weighted_ci": [
+        0.2009541927066128,
+        0.3840559862777471
+      ]
+    },
+    "git_clone_seen": {
+      "label": "git clone shown",
+      "k": 45,
+      "n": 100,
+      "share": 0.45,
+      "ci": [
+        0.3561437510640346,
+        0.5475557296835656
+      ],
+      "weighted_share": 0.49032730275504843,
+      "weighted_ci": [
+        0.38895491221842515,
+        0.592501483961773
+      ]
+    },
+    "setup_command_seen": {
+      "label": "Dev setup command shown (bare npm install, pip install -r, uv sync)",
+      "k": 38,
+      "n": 100,
+      "share": 0.38,
+      "ci": [
+        0.2909744920013438,
+        0.47790426179289663
+      ],
+      "weighted_share": 0.3943652044808114,
+      "weighted_ci": [
+        0.29822920985999846,
+        0.4994362416877871
+      ]
+    },
+    "all_three_top40": {
+      "label": "Pitch, image and install all in the first 40 lines",
+      "k": 5,
+      "n": 100,
+      "share": 0.05,
+      "ci": [
+        0.02154336145631356,
+        0.11175196527208817
+      ],
+      "weighted_share": 0.05424392563120887,
+      "weighted_ci": [
+        0.022091620313267737,
+        0.12710855442367713
+      ]
+    },
+    "has_table": {
+      "label": "Any pipe table",
+      "k": 76,
+      "n": 100,
+      "share": 0.76,
+      "ci": [
+        0.6676748127670786,
+        0.8330878873454004
+      ],
+      "weighted_share": 0.7375830976987047,
+      "weighted_ci": [
+        0.6364524919984257,
+        0.8185996669594983
+      ]
+    },
+    "has_comparison_table": {
+      "label": "A table framed as a comparison",
+      "k": 14,
+      "n": 100,
+      "share": 0.14,
+      "ci": [
+        0.08526265754464905,
+        0.22137360383807236
+      ],
+      "weighted_share": 0.14160598553662138,
+      "weighted_ci": [
+        0.08585999179112626,
+        0.22465124446588547
+      ]
+    },
+    "sec_install": {
+      "label": "Install or quick start heading",
+      "k": 64,
+      "n": 100,
+      "share": 0.64,
+      "ci": [
+        0.542352199811621,
+        0.7272892540950986
+      ],
+      "weighted_share": 0.664160181501222,
+      "weighted_ci": [
+        0.5657663740414544,
+        0.7501063474551023
+      ]
+    },
+    "sec_usage": {
+      "label": "Usage or examples heading",
+      "k": 22,
+      "n": 100,
+      "share": 0.22,
+      "ci": [
+        0.15001174503655804,
+        0.3107053471500031
+      ],
+      "weighted_share": 0.21315466806796288,
+      "weighted_ci": [
+        0.13995918028061977,
+        0.31079649013198357
+      ]
+    },
+    "sec_features": {
+      "label": "Features heading",
+      "k": 39,
+      "n": 100,
+      "share": 0.39,
+      "ci": [
+        0.300167219319702,
+        0.48797163832501844
+      ],
+      "weighted_share": 0.4116215832978839,
+      "weighted_ci": [
+        0.3138157611504271,
+        0.51694559816757
+      ]
+    },
+    "sec_why": {
+      "label": "Why, about or overview heading",
+      "k": 42,
+      "n": 100,
+      "share": 0.42,
+      "ci": [
+        0.327982249185113,
+        0.5179369200110473
+      ],
+      "weighted_share": 0.38266396416685433,
+      "weighted_ci": [
+        0.29042044765122477,
+        0.48421284083531635
+      ]
+    },
+    "sec_comparison": {
+      "label": "Comparison or alternatives heading",
+      "k": 17,
+      "n": 100,
+      "share": 0.17,
+      "ci": [
+        0.10893476059773155,
+        0.25548181233642975
+      ],
+      "weighted_share": 0.18258555830810166,
+      "weighted_ci": [
+        0.11562074359568855,
+        0.27622114233012274
+      ]
+    },
+    "sec_limits": {
+      "label": "Limitations heading",
+      "k": 3,
+      "n": 100,
+      "share": 0.03,
+      "ci": [
+        0.010254338223414816,
+        0.08452078080402699
+      ],
+      "weighted_share": 0.033904278123931306,
+      "weighted_ci": [
+        0.011243158618135823,
+        0.09772562837146427
+      ]
+    },
+    "sec_demo": {
+      "label": "Demo or screenshots heading",
+      "k": 26,
+      "n": 100,
+      "share": 0.26,
+      "ci": [
+        0.18404578126986462,
+        0.35371172631861636
+      ],
+      "weighted_share": 0.2819820834271701,
+      "weighted_ci": [
+        0.1966770805320509,
+        0.38648577242385784
+      ]
+    },
+    "sec_roadmap": {
+      "label": "Roadmap heading",
+      "k": 15,
+      "n": 100,
+      "share": 0.15,
+      "ci": [
+        0.09305903191162297,
+        0.23283733332157835
+      ],
+      "weighted_share": 0.15387817064117643,
+      "weighted_ci": [
+        0.09286462126714251,
+        0.24418779093016924
+      ]
+    },
+    "sec_contributing": {
+      "label": "Contributing heading",
+      "k": 46,
+      "n": 100,
+      "share": 0.46,
+      "ci": [
+        0.36560643853331865,
+        0.5573531460647615
+      ],
+      "weighted_share": 0.445875768419121,
+      "weighted_ci": [
+        0.3482469662176124,
+        0.547867137616588
+      ]
+    },
+    "sec_license": {
+      "label": "License heading",
+      "k": 59,
+      "n": 100,
+      "share": 0.59,
+      "ci": [
+        0.4920125056109662,
+        0.6813284290433533
+      ],
+      "weighted_share": 0.580760536829901,
+      "weighted_ci": [
+        0.4785542663424058,
+        0.676476967539684
+      ]
+    },
+    "sec_faq": {
+      "label": "FAQ or troubleshooting heading",
+      "k": 15,
+      "n": 100,
+      "share": 0.15,
+      "ci": [
+        0.09305903191162297,
+        0.23283733332157835
+      ],
+      "weighted_share": 0.15158021169581865,
+      "weighted_ci": [
+        0.09227150256436942,
+        0.23897427578188588
+      ]
+    },
+    "sec_citation": {
+      "label": "Citation or BibTeX",
+      "k": 9,
+      "n": 100,
+      "share": 0.09,
+      "ci": [
+        0.04807199516388488,
+        0.16226374696643667
+      ],
+      "weighted_share": 0.11849085403998699,
+      "weighted_ci": [
+        0.06382810285645465,
+        0.20949142969452775
+      ]
+    },
+    "sec_sponsors": {
+      "label": "Sponsor or funding link",
+      "k": 15,
+      "n": 100,
+      "share": 0.15,
+      "ci": [
+        0.09305903191162297,
+        0.23283733332157835
+      ],
+      "weighted_share": 0.11675007715470144,
+      "weighted_ci": [
+        0.06880897959624152,
+        0.19123349228287992
+      ]
+    },
+    "sec_community": {
+      "label": "Community link (Discord, Slack, Telegram)",
+      "k": 24,
+      "n": 100,
+      "share": 0.24,
+      "ci": [
+        0.16691211265459965,
+        0.3323251872329213
+      ],
+      "weighted_share": 0.22412356429697472,
+      "weighted_ci": [
+        0.15026788423092124,
+        0.32058385204826834
+      ]
+    },
+    "sec_star_history": {
+      "label": "Star history chart or heading",
+      "k": 21,
+      "n": 100,
+      "share": 0.21,
+      "ci": [
+        0.14165549531645788,
+        0.2998014930196232
+      ],
+      "weighted_share": 0.22827115081450342,
+      "weighted_ci": [
+        0.15240427170722515,
+        0.3273200901376721
+      ]
+    },
+    "toc": {
+      "label": "Table of contents",
+      "k": 15,
+      "n": 100,
+      "share": 0.15,
+      "ci": [
+        0.09305903191162297,
+        0.23283733332157835
+      ],
+      "weighted_share": 0.1253889014004621,
+      "weighted_ci": [
+        0.07345974559630253,
+        0.20587061624053732
+      ]
+    },
+    "translations": {
+      "label": "Translated READMEs linked",
+      "k": 32,
+      "n": 100,
+      "share": 0.32,
+      "ci": [
+        0.2366901081545688,
+        0.4166280225367919
+      ],
+      "weighted_share": 0.33437054275204564,
+      "weighted_ci": [
+        0.24280297588398014,
+        0.4403865183730341
+      ]
+    },
+    "centered_header": {
+      "label": "Centered HTML header block",
+      "k": 67,
+      "n": 100,
+      "share": 0.67,
+      "ci": [
+        0.5730516033971139,
+        0.7543701620610456
+      ],
+      "weighted_share": 0.6474755815796278,
+      "weighted_ci": [
+        0.542195483557969,
+        0.7401480222889933
+      ]
+    },
+    "has_emoji_headings": {
+      "label": "Emoji in headings",
+      "k": 26,
+      "n": 100,
+      "share": 0.26,
+      "ci": [
+        0.18404578126986462,
+        0.35371172631861636
+      ],
+      "weighted_share": 0.2673005863757309,
+      "weighted_ci": [
+        0.18558452106094508,
+        0.3687080690982177
+      ]
+    },
+    "asks_for_star": {
+      "label": "Asks the reader for a star",
+      "k": 7,
+      "n": 100,
+      "share": 0.07,
+      "ci": [
+        0.034318824364064096,
+        0.13749671006529757
+      ],
+      "weighted_share": 0.06438705802867653,
+      "weighted_ci": [
+        0.029035173969825967,
+        0.13672092867801644
+      ]
+    },
+    "has_demo_link": {
+      "label": "Link to a demo or playground",
+      "k": 9,
+      "n": 100,
+      "share": 0.09,
+      "ci": [
+        0.04807199516388488,
+        0.16226374696643667
+      ],
+      "weighted_share": 0.07958653421081167,
+      "weighted_ci": [
+        0.04051220095250869,
+        0.15043929593538577
+      ]
+    },
+    "has_docs_link": {
+      "label": "Link to docs",
+      "k": 46,
+      "n": 100,
+      "share": 0.46,
+      "ci": [
+        0.36560643853331865,
+        0.5573531460647615
+      ],
+      "weighted_share": 0.4550409128443811,
+      "weighted_ci": [
+        0.3547006017045468,
+        0.5591698344060483
+      ]
+    },
+    "has_em_dash": {
+      "label": "Em dash in prose",
+      "k": 62,
+      "n": 100,
+      "share": 0.62,
+      "ci": [
+        0.5220957382071033,
+        0.7090255079986562
+      ],
+      "weighted_share": 0.6130883567299752,
+      "weighted_ci": [
+        0.5073040380788961,
+        0.7091804811319503
+      ]
+    }
+  },
+  "numeric": {
+    "length_chars": {
+      "n": 100,
+      "q": [
+        755.0,
+        6556.0,
+        13663.0,
+        22493.25,
+        247886.0
+      ]
+    },
+    "length_lines": {
+      "n": 100,
+      "q": [
+        25.0,
+        147.0,
+        240.5,
+        450.0,
+        2623.0
+      ]
+    },
+    "pitch_words": {
+      "n": 99,
+      "q": [
+        4.0,
+        8.5,
+        11.0,
+        17.0,
+        94.0
+      ]
+    },
+    "image_count": {
+      "n": 100,
+      "q": [
+        0.0,
+        1.0,
+        3.0,
+        5.25,
+        729.0
+      ]
+    },
+    "badge_count": {
+      "n": 100,
+      "q": [
+        0.0,
+        0.0,
+        4.0,
+        6.25,
+        44.0
+      ]
+    },
+    "table_count": {
+      "n": 100,
+      "q": [
+        0.0,
+        1.0,
+        2.0,
+        4.0,
+        31.0
+      ]
+    },
+    "heading_count": {
+      "n": 100,
+      "q": [
+        1.0,
+        10.75,
+        17.5,
+        27.0,
+        118.0
+      ]
+    },
+    "h2_count": {
+      "n": 100,
+      "q": [
+        0.0,
+        7.75,
+        10.0,
+        13.0,
+        38.0
+      ]
+    },
+    "code_blocks": {
+      "n": 100,
+      "q": [
+        0.0,
+        2.0,
+        6.0,
+        12.0,
+        74.0
+      ]
+    },
+    "emoji_headings": {
+      "n": 100,
+      "q": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        61.0
+      ]
+    },
+    "em_dash_count": {
+      "n": 100,
+      "q": [
+        0.0,
+        0.0,
+        2.0,
+        12.5,
+        124.0
+      ]
+    },
+    "prose_words": {
+      "n": 100,
+      "q": [
+        61.0,
+        647.75,
+        1291.0,
+        2006.25,
+        15148.0
+      ]
+    }
+  },
+  "by_kind": {
+    "agent-or-skill": {
+      "n": 28,
+      "pitch_in_first_15": 21,
+      "image_in_first_40": 22,
+      "install_in_first_40": 5,
+      "has_badges": 19,
+      "has_comparison_table": 3
+    },
+    "ai-model-or-research": {
+      "n": 12,
+      "pitch_in_first_15": 10,
+      "image_in_first_40": 11,
+      "install_in_first_40": 1,
+      "has_badges": 7,
+      "has_comparison_table": 3
+    },
+    "app": {
+      "n": 9,
+      "pitch_in_first_15": 7,
+      "image_in_first_40": 8,
+      "install_in_first_40": 0,
+      "has_badges": 6,
+      "has_comparison_table": 0
+    },
+    "awesome-list": {
+      "n": 7,
+      "pitch_in_first_15": 6,
+      "image_in_first_40": 5,
+      "install_in_first_40": 1,
+      "has_badges": 4,
+      "has_comparison_table": 1
+    },
+    "cli-tool": {
+      "n": 6,
+      "pitch_in_first_15": 6,
+      "image_in_first_40": 5,
+      "install_in_first_40": 2,
+      "has_badges": 4,
+      "has_comparison_table": 1
+    },
+    "learning": {
+      "n": 6,
+      "pitch_in_first_15": 5,
+      "image_in_first_40": 4,
+      "install_in_first_40": 0,
+      "has_badges": 2,
+      "has_comparison_table": 0
+    },
+    "library-or-framework": {
+      "n": 7,
+      "pitch_in_first_15": 7,
+      "image_in_first_40": 7,
+      "install_in_first_40": 0,
+      "has_badges": 7,
+      "has_comparison_table": 0
+    },
+    "mcp-server": {
+      "n": 10,
+      "pitch_in_first_15": 8,
+      "image_in_first_40": 7,
+      "install_in_first_40": 2,
+      "has_badges": 7,
+      "has_comparison_table": 5
+    },
+    "other": {
+      "n": 15,
+      "pitch_in_first_15": 12,
+      "image_in_first_40": 8,
+      "install_in_first_40": 1,
+      "has_badges": 9,
+      "has_comparison_table": 1
+    }
+  },
+  "by_speed": {
+    "fast_n": 50,
+    "slow_n": 50,
+    "cut_stars_per_day": 12.46,
+    "features": {
+      "pitch_in_first_15": {
+        "fast": 40,
+        "slow": 42,
+        "p": 0.7952943692653337,
+        "p_holm": 1.0
+      },
+      "pitch_in_first_40": {
+        "fast": 49,
+        "slow": 50,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "image_in_first_40": {
+        "fast": 40,
+        "slow": 37,
+        "p": 0.6352558567231937,
+        "p_holm": 1.0
+      },
+      "image_in_first_4000": {
+        "fast": 39,
+        "slow": 38,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "screenshot_in_first_40": {
+        "fast": 33,
+        "slow": 35,
+        "p": 0.8304853073010641,
+        "p_holm": 1.0
+      },
+      "has_gif": {
+        "fast": 9,
+        "slow": 7,
+        "p": 0.7858331846515466,
+        "p_holm": 1.0
+      },
+      "has_video": {
+        "fast": 5,
+        "slow": 3,
+        "p": 0.7149836629646897,
+        "p_holm": 1.0
+      },
+      "has_badges": {
+        "fast": 36,
+        "slow": 29,
+        "p": 0.20814134202396506,
+        "p_holm": 1.0
+      },
+      "badges_in_first_15": {
+        "fast": 23,
+        "slow": 22,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "install_oneliner": {
+        "fast": 31,
+        "slow": 32,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "install_in_first_40": {
+        "fast": 4,
+        "slow": 8,
+        "p": 0.3566613231275048,
+        "p_holm": 1.0
+      },
+      "install_in_first_4000": {
+        "fast": 13,
+        "slow": 16,
+        "p": 0.6598248931768204,
+        "p_holm": 1.0
+      },
+      "git_clone_seen": {
+        "fast": 22,
+        "slow": 23,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "setup_command_seen": {
+        "fast": 18,
+        "slow": 20,
+        "p": 0.8369464893157669,
+        "p_holm": 1.0
+      },
+      "all_three_top40": {
+        "fast": 1,
+        "slow": 4,
+        "p": 0.3621784858898261,
+        "p_holm": 1.0
+      },
+      "has_table": {
+        "fast": 40,
+        "slow": 36,
+        "p": 0.4829451155746373,
+        "p_holm": 1.0
+      },
+      "has_comparison_table": {
+        "fast": 5,
+        "slow": 9,
+        "p": 0.388062471578362,
+        "p_holm": 1.0
+      },
+      "sec_install": {
+        "fast": 32,
+        "slow": 32,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "sec_usage": {
+        "fast": 9,
+        "slow": 13,
+        "p": 0.4695351481474275,
+        "p_holm": 1.0
+      },
+      "sec_features": {
+        "fast": 15,
+        "slow": 24,
+        "p": 0.10040717163394022,
+        "p_holm": 1.0
+      },
+      "sec_why": {
+        "fast": 18,
+        "slow": 24,
+        "p": 0.311056706881086,
+        "p_holm": 1.0
+      },
+      "sec_comparison": {
+        "fast": 7,
+        "slow": 10,
+        "p": 0.595462682119588,
+        "p_holm": 1.0
+      },
+      "sec_limits": {
+        "fast": 2,
+        "slow": 1,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "sec_demo": {
+        "fast": 9,
+        "slow": 17,
+        "p": 0.10954044613289908,
+        "p_holm": 1.0
+      },
+      "sec_roadmap": {
+        "fast": 8,
+        "slow": 7,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "sec_contributing": {
+        "fast": 22,
+        "slow": 24,
+        "p": 0.841116292342921,
+        "p_holm": 1.0
+      },
+      "sec_license": {
+        "fast": 26,
+        "slow": 33,
+        "p": 0.22231038236313855,
+        "p_holm": 1.0
+      },
+      "sec_faq": {
+        "fast": 7,
+        "slow": 8,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "sec_citation": {
+        "fast": 3,
+        "slow": 6,
+        "p": 0.48697059333644144,
+        "p_holm": 1.0
+      },
+      "sec_sponsors": {
+        "fast": 5,
+        "slow": 10,
+        "p": 0.2623394573533714,
+        "p_holm": 1.0
+      },
+      "sec_community": {
+        "fast": 15,
+        "slow": 9,
+        "p": 0.24142379746764064,
+        "p_holm": 1.0
+      },
+      "sec_star_history": {
+        "fast": 12,
+        "slow": 9,
+        "p": 0.6241549480147692,
+        "p_holm": 1.0
+      },
+      "toc": {
+        "fast": 7,
+        "slow": 8,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "translations": {
+        "fast": 18,
+        "slow": 14,
+        "p": 0.5205155835087241,
+        "p_holm": 1.0
+      },
+      "centered_header": {
+        "fast": 39,
+        "slow": 28,
+        "p": 0.0326540406155647,
+        "p_holm": 1.0
+      },
+      "has_emoji_headings": {
+        "fast": 12,
+        "slow": 14,
+        "p": 0.8199963968244333,
+        "p_holm": 1.0
+      },
+      "asks_for_star": {
+        "fast": 3,
+        "slow": 4,
+        "p": 1.0,
+        "p_holm": 1.0
+      },
+      "has_demo_link": {
+        "fast": 7,
+        "slow": 2,
+        "p": 0.1595050146150211,
+        "p_holm": 1.0
+      },
+      "has_docs_link": {
+        "fast": 27,
+        "slow": 19,
+        "p": 0.1598456515818883,
+        "p_holm": 1.0
+      },
+      "has_em_dash": {
+        "fast": 33,
+        "slow": 29,
+        "p": 0.5368261212126004,
+        "p_holm": 1.0
+      }
+    }
+  },
+  "sensitivity_stars_per_fork": {
+    "dropped": 10,
+    "n": 90,
+    "features": {
+      "pitch_in_first_15": 0.8111111111111111,
+      "pitch_in_first_40": 0.9888888888888889,
+      "image_in_first_40": 0.7777777777777778,
+      "image_in_first_4000": 0.7666666666666667,
+      "screenshot_in_first_40": 0.6888888888888889,
+      "has_gif": 0.15555555555555556,
+      "has_video": 0.06666666666666667,
+      "has_badges": 0.6222222222222222,
+      "badges_in_first_15": 0.4111111111111111,
+      "install_oneliner": 0.6333333333333333,
+      "install_in_first_40": 0.13333333333333333,
+      "install_in_first_4000": 0.2777777777777778,
+      "git_clone_seen": 0.4777777777777778,
+      "setup_command_seen": 0.37777777777777777,
+      "all_three_top40": 0.05555555555555555,
+      "has_table": 0.7444444444444445,
+      "has_comparison_table": 0.14444444444444443,
+      "sec_install": 0.6333333333333333,
+      "sec_usage": 0.2,
+      "sec_features": 0.36666666666666664,
+      "sec_why": 0.3888888888888889,
+      "sec_comparison": 0.16666666666666666,
+      "sec_limits": 0.03333333333333333,
+      "sec_demo": 0.24444444444444444,
+      "sec_roadmap": 0.14444444444444443,
+      "sec_contributing": 0.4444444444444444,
+      "sec_license": 0.6,
+      "sec_faq": 0.13333333333333333,
+      "sec_citation": 0.07777777777777778,
+      "sec_sponsors": 0.14444444444444443,
+      "sec_community": 0.23333333333333334,
+      "sec_star_history": 0.2111111111111111,
+      "toc": 0.15555555555555556,
+      "translations": 0.35555555555555557,
+      "centered_header": 0.6555555555555556,
+      "has_emoji_headings": 0.26666666666666666,
+      "asks_for_star": 0.06666666666666667,
+      "has_demo_link": 0.08888888888888889,
+      "has_docs_link": 0.4444444444444444,
+      "has_em_dash": 0.6222222222222222
+    },
+    "max_shift": 0.03888888888888892
+  },
+  "tables_by_type": {
+    "comparison": 16,
+    "results": 11,
+    "support_matrix": 5,
+    "reference": 149,
+    "other": 215
+  },
+  "repos_with_table_type": {
+    "comparison": 14,
+    "results": 7,
+    "support_matrix": 5,
+    "reference": 44,
+    "other": 59
+  },
+  "install_kinds": {
+    "npm": 14,
+    "docker": 13,
+    "script": 8,
+    "pip": 8,
+    "brew": 7,
+    "script-file": 6,
+    "other": 5,
+    "os-package": 2
+  },
+  "stars_per_day": {
+    "q": [
+      3.4,
+      7.390000000000001,
+      12.100000000000001,
+      27.150000000000002,
+      424.14
+    ]
+  },
+  "stars": {
+    "q": [
+      1024.0,
+      1322.25,
+      2166.0,
+      3862.5,
+      84783.0
+    ]
+  }
+}

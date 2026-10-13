@@ -1,0 +1,40 @@
+feature,repo,detector,hand,note
+pitch_in_first_15,leigest519/OpenGame,yes,no,author list rather than a pitch
+pitch_in_first_15,vibe-motion/skills,yes,no,"deprecation notice in a quote block, not a pitch"
+pitch_in_first_15,alchaincyf/deepseek-harness-orange-book,yes,no,byline line
+pitch_in_first_15,alchaincyf/loop-engineering-orange-book,yes,no,byline line
+pitch_in_first_15,xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer,yes,no,byline line
+pitch_in_first_15,OlaProeis/Ferrite,yes,no,website link line
+pitch_in_first_40,chengyi-ai/native-subtitle-quote-image,no,no,the only text near the top is the banner alt text
+image_in_first_40,muxuuu/serenity-skill,yes,no,first version counted a skills.sh badge and an olud.ai badge.php badge as images; badge rules extended
+image_in_first_40,huohua325/Memslides,yes,no,first version counted assets/badges/paper.svg as an image; badge rules extended
+image_in_first_40,OlaProeis/Ferrite,yes,no,first version counted a Weblate svg-badge as an image; badge rules extended
+image_in_first_40,KuekHaoYang/KVideo,yes,no,first version counted a Buy Me a Coffee button image; badge rules extended
+install_oneliner,leigest519/OpenGame,yes,no,curl install script for npm itself (a dependency)
+install_oneliner,huohua325/Memslides,yes,no,apt packages for a dependency
+install_oneliner,chengyi-ai/native-subtitle-quote-image,yes,no,pip install of yt-dlp (a dependency)
+install_oneliner,RLinf/RPent,yes,no,pip install of modelscope (a dependency)
+install_oneliner,huangkiki/dailypaper-skills,yes,no,brew install of poppler (a dependency)
+install_oneliner,angelos-p/llm-from-scratch,yes,no,curl install script for uv (a dependency)
+install_oneliner,QwenLM/Qwen3-VL-Embedding,yes,no,environment setup script
+install_oneliner,Edge0-AI/Audio8_TTS,yes,no,uv pip install of a different project checkout
+install_oneliner,sunblaze-ucb/exploitgym,yes,no,data setup script
+install_oneliner,mlc-ai/modern-gpu-programming-for-mlsys,yes,no,pip install of dependencies for the book's code
+install_oneliner,NabidAlam/road-to-machine-learning,yes,no,pip install jupyter notebook (a dependency)
+install_oneliner,scrya-com/rotorquant,yes,no,pip install datasets (a dependency)
+install_oneliner,VoltAgent/awesome-agent-skills,yes,no,a table row in a list of other projects' skills
+has_comparison_table,OpenDCAI/Paper2Any,yes,no,compares the project's own open-source and hosted editions
+has_comparison_table,adongwanai/AgentGuide,yes,no,"old approach versus new approach, a concept comparison"
+has_comparison_table,Spark-To-Paper-Skills/spark-to-paper-skills,yes,no,a capability list under What Makes It Different
+has_comparison_table,angelos-p/llm-from-scratch,yes,no,"characters versus BPE, a concept comparison"
+has_comparison_table,QwenLM/Qwen3-VL-Embedding,yes,no,compares the project's own two models
+has_comparison_table,Dicklesworthstone/mcp_agent_mail,yes,no,two tools from the same project
+has_comparison_table,yeahhe365/Gemini-Nexus,yes,no,compares the project's own provider drivers
+has_comparison_table,mohitagw15856/pm-claude-skills,yes,no,with the skill versus without it
+has_comparison_table,nextlevelbuilder/goclaw,yes,no,the project's own Lite and Standard editions
+has_comparison_table,ZeroPointSix/outlookEmailPlus,yes,no,two operations of the same app
+has_comparison_table,cabinetai/cabinet,yes,yes,compared with Obsidian and Notion
+has_comparison_table,ClaudioDrews/memory-os,yes,yes,"compared with stock Hermes and with mem0, Zep and Letta"
+has_comparison_table,LargeModGames/spotatui,yes,yes,compared with spotify-tui and with the official client
+has_comparison_table,tinyhumansai/openhuman,yes,yes,compared with other agent harnesses
+has_comparison_table,connorgallopo/Tracearr,no,yes,compared with Tautulli and Jellystat; typed as a support matrix because the heading says Why Tracearr

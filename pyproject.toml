@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readme-breakouts"
+version = "0.1.0"
+description = "An open dataset and method for what 100 breakout repos put in their READMEs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rish Sadh" }]
+dependencies = []
+
+[project.scripts]
+readme-breakouts = "readme_breakouts.cli:main"
+
+[tool.setuptools]
+packages = ["readme_breakouts"]
+
+[tool.setuptools.package-data]
+readme_breakouts = ["benchmark.json"]
